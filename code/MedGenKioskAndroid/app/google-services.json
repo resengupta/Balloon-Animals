@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "513801351730",
+    "firebase_url": "https://med-gen.firebaseio.com",
+    "project_id": "med-gen",
+    "storage_bucket": "med-gen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513801351730:android:e58f7baf0b119906",
+        "android_client_info": {
+          "package_name": "com.balloonanimals.medgenkiosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513801351730-30n3me8fo2khitvrb519oo7he4okbjv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCglz4Gr4vJn5jCaF1N8yr6p_FA4CQKFrw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
