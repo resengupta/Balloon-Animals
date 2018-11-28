@@ -21,6 +21,7 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.ArrayAdapter
 import android.widget.TextView
+import com.balloonanimals.medgenkiosk.ui.PrescriptionActivity
 import java.util.*
 
 import kotlinx.android.synthetic.main.activity_login.*
@@ -265,6 +266,7 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
             showProgress(false)
 
             if (success!!) {
+                startActivity(PrescriptionActivity.createIntent(this@LoginActivity))
                 finish()
             } else {
                 password.error = getString(R.string.error_incorrect_password)
