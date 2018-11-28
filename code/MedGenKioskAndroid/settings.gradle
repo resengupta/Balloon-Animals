@@ -1,1 +1,1 @@
-include ':app', ':medgennetwork'
+include ':app', ':patient', ':medgennetwork'
